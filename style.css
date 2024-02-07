@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.center-div {
+  margin: 20px auto; /* Adjust margin as needed */
+}
+
+h1{
+  text-align: center;
+}
+
+button {
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #fc78d4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  p {
+    font-size: 1.2em; /* Adjust the font size as needed */
+    background: linear-gradient(to left, #b60000, #ffafaf); /* Red to light red gradient */
+    -webkit-background-clip: text; /* Apply gradient to text */
+    -webkit-text-fill-color: transparent; /* Make text transparent */
+    text-align: center; /* Center align text */
+  }
+  
+
+img {
+  margin-top: 0%;
+  margin-left: 0%;
+  width:700px;
+  height:558px;
+}
+  
